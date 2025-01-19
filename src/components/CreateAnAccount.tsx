@@ -18,7 +18,7 @@ const CreateAccount: React.FC = () => {
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
 
-  const handleGetStartedClick = (event: FormEvent) => {
+  const handleCreateAccountClick = (event: FormEvent) => {
     event.preventDefault();
     navigate("/verify-number-1");
   };
@@ -216,7 +216,7 @@ const CreateAccount: React.FC = () => {
       <Spacer y={4} />
       <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
         <Button
-          onClick={handleGetStartedClick}
+          onClick={handleCreateAccountClick}
           style={{ width: "75%", backgroundColor: "#9d0208", color: "#fff" }}
         >
           Get Started
