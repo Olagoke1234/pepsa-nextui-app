@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Avatar, Spacer, Divider } from "@nextui-org/react";
+import { Card, Avatar, Spacer } from "@nextui-org/react";
 import { Grid } from "@mui/material";
 import { Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
