@@ -18,8 +18,7 @@ const CreateAccount: React.FC = () => {
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
 
-  const handleCreateAccountClick = (event: FormEvent) => {
-    event.preventDefault();
+  const handleCreateAccountClick = () => {
     navigate("/verify-number-1");
   };
 
